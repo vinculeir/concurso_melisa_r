@@ -1,0 +1,139 @@
+
+/* Tipografia do corpo do texto e */
+body {
+  font-family: Quicksand;
+  font-size: 23px;
+  <!-- background-color: rgba(255,236,223,255); -->
+}
+
+
+/* Títulos*/
+h1{
+  <!-- display: inline-block; /* keeps container wrapped tight to content */ -->
+  display: center;
+  text-align: center ;
+  font-size:90px;
+  font-family: Quicksand;
+  font-weight: bold;
+  color: black;
+    <!-- background-color:rgba(76, 175, 80, 0.3); -->
+    <!-- color:#fff; -->
+}
+
+
+
+h3{
+  <!-- display: inline-block; /* keeps container wrapped tight to content */ -->
+  display: center;
+  text-align: center ;
+  font-size:25px;
+  font-family: Quicksand ;
+  font-weight: bold;
+  color: black;
+    <!-- background-color:rgba(76, 175, 80, 0.3); -->
+    <!-- color:#fff; -->
+}
+
+
+h2{
+  <!-- display: inline-block; /* keeps container wrapped tight to content */ -->
+  display: center;
+  text-align: center ;
+  font-size:38px;
+  font-family: Quicksand;
+  color: black;
+    <!-- color: rgba(156, 200, 227, 255); -->
+    <!-- background-color:rgba(76, 175, 80, 0.3); -->
+    <!-- color:#fff; -->
+}
+
+h4{
+  display: center;
+  text-align: center ;
+  font-size:20px;
+  font-family: Quicksand;
+  color: rgba(210, 210, 210, 255);
+}
+
+/*Estilo dos enlaces */
+
+/*Tipo basico */
+.uri {
+   text-decoration: underline;
+  background-color: rgba(0,0,0,0);
+  color: #333;
+}
+
+.uri:hover{
+text-decoration: none;
+   color:#fff;
+  background-color: rgba(216, 216, 216, 255);
+}
+
+/*Tipo markdown */
+
+a{
+   text-decoration: underline;
+   text-underline-position: under;
+  background-color: rgba(0,0,0,0);
+  color: #333;
+}
+
+a:hover{
+text-decoration: none;
+   color:#fff;
+  background-color: rgba(255, 206, 206, 255);
+}
+
+/*Estilo das frases */
+blockquote {
+    font-family: Quicksand;
+    font-size: 18px;
+    font-style: italic;
+    max-width:390px;
+    color: #5c4c40;
+    text-align: center; 
+    border-left: 3px solid #897860; 
+    padding-left: 5px;
+    margin-left: 40px; 
+}
+ 
+blockquote:before {
+    display: block;
+    font-size: 80px;
+     line-height: 0em;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    color: #7a7a7a;
+}
+ 
+blockquote cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+#div1 {
+display: inline-block; 
+   color:#fff;
+  background-color: rgba(76, 175, 80, 0.3);
+  position: relative;
+  text-decoration: none;
+}
+
+
+.table-condensed{
+   width: 50%;
+   height: 50%;
+  align: center;
+}
+
+  .col2 {
+    columns: 2 200px;         /* numero de columnas, anchura en pixeles*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+    font-size: 15px;
+    vertical-align: middle;
+  }
