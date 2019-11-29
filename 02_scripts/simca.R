@@ -621,16 +621,8 @@ scale_fill_gradient2(low = "#f0f0f0ff",mid="#d1abb7ff",high="#6e4c55ff",midpoint
   rayshader::plot_gg(simca_cancros_eoxi_mapa,
                      width = 5, height = 4, scale = 300, multicore = TRUE, windowsize = c(1200, 960),
                      fov = 70, zoom = 0.65, theta = 360, phi = 80)
-  
-
-    
-dev.close()
 #Gardar imaxe
 rayshader::render_snapshot("mapa_3d_eoxi_sexo.png")
-#Pechar a fiestra do mapa en 3D
-  rayshader::render_snapshot(clear = TRUE)
-rgl::rgl.quit()
-rgl.pop()
 #GRAFICO 
 #Construir grafico completo
 #Ler a imaxe do mapa en 3D
