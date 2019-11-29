@@ -9,3 +9,8 @@ Unha vez descargado este repositorio e descomprimido é necesario ter en conta v
 # Ubicación do traballo
 
 *DIRECTORIO*: **05_documentos**
+
+# Reproducibilidade
+
+Neste punto, tiven que prescindir de incluír a parte correspondente ao *packrat* (que permite usar as mesmas versións dos paquetes que usei) debido ao peso da carpeta.
+
